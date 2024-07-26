@@ -1,12 +1,13 @@
 <script setup>
-definePageMeta({
-  layout: false,
-});
+function enableCustomLayout() {
+  setPageLayout('custom');
+}
+// definePageMeta({
+//   layout: false,
+// });
 </script>
 <template>
   <div>
-    <NuxtLayout name="custom">
-      <h1>About Page</h1>
-    </NuxtLayout>
+    <button @click="enableCustomLayout">Update layout</button>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav>カスタムレイアウト</nav>
+    <nav>custom.vueのレイアウト</nav>
     <slot />
   </div>
 </template>
